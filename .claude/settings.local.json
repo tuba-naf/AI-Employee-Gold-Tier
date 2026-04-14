@@ -1,0 +1,8 @@
+{
+  "disabledMcpjsonServers": [
+    "gold-email",
+    "gold-facebook",
+    "gold-odoo",
+    "gold-twitter"
+  ]
+}

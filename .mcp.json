@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "gold-email": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "./Watchers/email_mcp_server.py"
+      ],
+      "env": {}
+    },
+    "gold-facebook": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "./Watchers/facebook_mcp_server.py"
+      ],
+      "env": {}
+    },
+    "gold-odoo": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "./Watchers/odoo_mcp_server.py"
+      ],
+      "env": {}
+    },
+    "gold-twitter": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "./Watchers/twitter_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,56 @@
+# Silver Tier AI Employee — .gitignore
+
+# === CREDENTIALS & SECRETS — NEVER COMMIT ===
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+token.json
+
+# === WATCHER STATE FILES ===
+Watchers/.linkedin_state.json
+Watchers/.instagram_state.json
+Watchers/.news_state.json
+Watchers/.linkedin_post_state.json
+Watchers/*.session
+Watchers/*.cookies
+Watchers/*.log
+
+# === VAULT STATE (local only) ===
+Vault/Watchers/
+Vault/Logs/
+Vault/.obsidian/workspace.json
+Vault/.obsidian/workspace-mobile.json
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+
+# === EDITORS ===
+.vscode/settings.json
+.idea/
+*.sublime-workspace
